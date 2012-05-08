@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+.lof-slider{ position:relative;clear:both; }
+.lof-slider, .lof-slider a { color:#FFF; }
+.lof-slider li{ background:none!important; }
+.lof-slider .lof-wrapper{ -moz-box-shadow:0 0 10px #333;-webkit-box-shadow:0 0 10px #333; position:relative; overflow:hidden;}
+.lof-slider .preload{ height:100%; width:100%; position:absolute; top:0; left:0; z-index:100000; text-align:center; background:#FFF; -moz-box-shadow:0 0 8px #CCC;-webkit-box-shadow:0 0 8px #CCC}
+.lof-slider .preload div{	height:100%;width:100%;	background:transparent url(images/load-indicator.gif) no-repeat scroll 50% 50%;}
+.lof-slider .lof-main-outer{ position:relative; z-index:3px; overflow:hidden; }
+/*******************************************************/
+.lof-slider .lof-description{
+	z-index:3;
+	position:absolute;
+	bottom:50px;
+	left:0px;
+	width:350px;
+	background:url(images/bg_trans.png);
+	height:100px;
+	padding:10px;
+	-moz-box-shadow:0 0 1px #333;
+	-webkit-box-shadow:0 0 1px #333;
+}
+.lof-slider .lof-description h4{margin:0px;padding:10px 0px 5px 0px; }
+.lof-slider .lof-description h4 a{color:#58B1EA;}
+.lof-slider .lof-description p{ margin:0 8px;	padding:8px 0}
+.lof-slider .lof-description .lof-extrainfo{ padding:0;margin:0 }
+.lof-slider .lof-description h2{ padding:0;	margin:15px 0 0 0px;}
+.lof-slider .lof-description .lof-extrainfo a{	
+	margin:0;
+	background:#C01F25;
+	padding:2px 3px;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:86%;
+	font-weight:bold;
+}
+.lof-slider .lof-description .lof-extrainfo a:hover{
+	text-decoration:underline;
+
+}
+.lof-slider .lof-description .lof-extrainfo i {
+	font-size:86%;
+}
+
+/* main flash */
+.lof-slider ul.lof-main-wapper{
+	/* margin-right:auto; */
+	overflow:hidden;
+	padding:0px;
+	margin:0;
+	position:absolute;
+	overflow:hidden;
+}
+
+.lof-slider ul.lof-main-wapper li{
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	float:left;
+	position:relative;
+}
+.lof-slider .lof-opacity  li{
+	position:absolute;
+	top:0;
+	left:0;
+	float:inherit;
+}
+.lof-slider ul.lof-main-wapper li img{
+	padding:0px;	
+}
+
+/* item navigator */
+.lof-slider .lof-navigator-wapper {
+	position:absolute;
+	z-index:5;
+	bottom:10px;
+	right:10px;
+	background:url(images/transparent_bg.png) repeat;
+	padding:5px 0px;
+	-moz-box-shadow:0 0 8px #CCC;
+	-webkit-box-shadow:0 0 8px #CCC
+}
+.lof-slider .lof-navigator-outer{
+	position:relative;
+	z-index:2;
+	height:180px;
+	width:310px;
+	overflow:hidden;
+	color:#FFF;
+	float:left;
+}
+.lof-slider ul.lof-navigator{
+	top:0;
+	padding:0;
+	margin:0;
+	position:absolute;
+	width:100%;
+}
+.lof-slider ul.lof-navigator li{
+	cursor:hand; 
+	cursor:pointer;
+	list-style:none;
+	padding:0;
+	margin-left:0px;
+	overflow:hidden;
+	float:left;
+	display:block;
+	text-align:center;
+
+}
+.lof-slider ul.lof-navigator li img{
+	border:#666 solid 3px;		
+}
+ul.lof-navigator li.active img, ul.lof-navigator li:hover img {
+	border:#A8A8A8 solid 3px;
+}
+.lof-navigator-wapper .lof-next,  .lof-navigator-wapper .lof-previous{
+	display:block;
+	height:30px;
+	color:#FFF;
+	cursor:pointer;
+	 width:23px;
+	 padding-top:2%
+}
+
+.lof-horizontal  .lof-next, .lof-horizontal  .lof-previous{	width:22px!important;}
+.lof-slider .lof-navigator-wapper .lof-next {float:left;text-indent:-999px;margin-right:5px;background:url(images/arrow-l.png) no-repeat right center; float:left}
+.lof-slider .lof-navigator-wapper .lof-previous {float:left;text-indent:-999px;margin-left:5px;background:url(images/arrow-r.png) no-repeat left center; float:right}
+.lof-slider .lof-bottom-bg{	height:28px; width:100%;background:url(images/bottom-bg.png) no-repeat center;}
+.lof-vertical .lof-navigator-outer{clear:both;float:none!important;}
+.lof-slider .lof-vertical .lof-next { margin:0 auto;background:url(images/arrow-u.png) no-repeat center center;display:block;position:relative; width:100%;}
+.lof-slider .lof-vertical .lof-previous {position:relative;margin:0 auto;display:block;background:url(images/arrow-d.png) no-repeat center center; width:100%;}

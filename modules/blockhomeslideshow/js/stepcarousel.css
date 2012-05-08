@@ -1,0 +1,15 @@
+.stepcarousel{
+ 	background: url("homespecial_footer.jpg") no-repeat scroll center bottom #FFFFFF;
+    border: 0 none;
+    height: 182px;
+    margin-left: 27px;
+	*margin-left: -927px;
+    margin-top: -86px;
+	*margin-top: -140px;
+    overflow: scroll;
+    position: relative;
+	*position: absolute;
+    width: 900px;
+}
+.stepcarousel .belt{position:absolute; left:0; top:0;}
+.stepcarousel .panel{float: left; overflow: hidden; margin: 10px; width: 210px; }

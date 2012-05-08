@@ -1,0 +1,17 @@
+/* block top search */
+#header_right #search_block_top { float: left; }
+#header_right #search_block_top p { padding: 0.4em 0 0.4em 1em }
+#header_right #search_block_top label, #header_right #search_block_top input { float: left }
+#header_right #search_block_top label {
+	float: left;
+	display: block
+}
+#header_right #search_block_top input.search_query { width: 12em }
+
+
+/* block left column "Quick search" */
+#search_block_left input { margin: 2px 0 0 0 }
+#search_block_left .search_query { width: 11em }
+#search_button { display: inline }
+
+#search_block_top .search_query {background: url(../../../img/search_text_bg.png) no-repeat transparent; width: 81px; height: 17px; border: 0;}

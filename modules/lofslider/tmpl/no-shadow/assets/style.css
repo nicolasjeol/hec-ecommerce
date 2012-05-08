@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+.lof-slider-noshadown{ position:relative;clear:both; }
+.lof-slider-noshadown, .lof-slider-noshadown a { color:#FFF; }
+.lof-slider-noshadown li{ background:none!important; }
+.lof-slider-noshadown .lof-wrapper { position:relative; overflow:hidden;}
+.lof-slider-noshadown .preload{ height:100%; width:100%; position:absolute; top:0; left:0; z-index:100000; text-align:center; background:#FFF; -moz-box-shadow:0 0 8px #CCC;-webkit-box-shadow:0 0 8px #CCC}
+.lof-slider-noshadown .preload div{	height:100%;width:100%;	background:transparent url(images/load-indicator.gif) no-repeat scroll 50% 50%;}
+.lof-slider-noshadown .lof-main-outer{ position:relative; z-index:3px; overflow:hidden; }
+/*******************************************************/
+.lof-slider-noshadown .lof-description{
+	z-index:3px;
+	position:absolute;
+	bottom:50px;
+	left:0px;
+	width:350px;
+	background:url(images/bg_trans.png);
+	height:100px;
+	padding:10px;
+	-moz-box-shadow:0 0 1px #333;
+	-webkit-box-shadow:0 0 1px #333;
+}
+.lof-slider-noshadown .lof-description h4{margin:0px;padding:10px 0px 5px 0px; }
+.lof-slider-noshadown .lof-description h4 a{color:#FFF!important;}
+.lof-slider-noshadown .lof-description p{ margin:0 8px;	padding:8px 0}
+.lof-slider-noshadown .lof-description .lof-extrainfo{ padding:0;margin:0 }
+.lof-slider-noshadown .lof-description h2{ padding:0;	margin:15px 0 0 0px;}
+.lof-slider-noshadown .lof-description .lof-extrainfo a{	
+	margin:0;
+	background:#C01F25;
+	padding:2px 3px;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:86%;
+	font-weight:bold;
+}
+.lof-slider-noshadown .lof-description .lof-extrainfo a:hover{
+	text-decoration:underline;
+
+}
+.lof-slider-noshadown .lof-description .lof-extrainfo i {
+	font-size:86%;
+}
+
+/* main flash */
+.lof-slider-noshadown ul.lof-main-wapper{
+	/* margin-right:auto; */
+	overflow:hidden;
+	padding:0px;
+	margin:0;
+	position:absolute;
+	overflow:hidden;
+}
+
+.lof-slider-noshadown ul.lof-main-wapper li{
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	float:left;
+	position:relative;
+}
+.lof-slider-noshadown .lof-opacity  li{
+	position:absolute;
+	top:0;
+	left:0;
+	float:inherit;
+}
+.lof-slider-noshadown ul.lof-main-wapper li img{
+	padding:0px;	
+}
+
+/* item navigator */
+.lof-slider-noshadown .lof-navigator-wapper {
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	background:url(images/transparent_bg.png) repeat;
+	padding:5px 0px;
+	-moz-box-shadow:0 0 8px #CCC;
+	-webkit-box-shadow:0 0 8px #CCC
+}
+.lof-slider-noshadown .lof-navigator-outer{
+	position:relative;
+	z-index:2;
+	height:180px;
+	width:310px;
+	overflow:hidden;
+	color:#FFF;
+	float:left
+}
+.lof-slider-noshadown ul.lof-navigator{
+	top:0;
+	padding:0;
+	margin:0;
+	position:absolute;
+	width:100%;
+}
+.lof-slider-noshadown ul.lof-navigator li{
+	cursor:hand; 
+	cursor:pointer;
+	list-style:none;
+	padding:0;
+	margin-left:0px;
+	overflow:hidden;
+	float:left;
+	display:block;
+	text-align:center;
+
+}
+.lof-slider-noshadown ul.lof-navigator li img{
+	border:#666 solid 3px;	
+	
+}
+ul.lof-navigator li.active img, ul.lof-navigator li:hover img {
+	border:#A8A8A8 solid 3px;
+}
+.lof-slider-noshadown .lof-buttons-control .lof-next, .lof-slider-noshadown .lof-buttons-control .lof-previous{
+	display:block;
+	color:#FFF;
+	cursor:pointer; cursor:hand;	width:22px!important; height:22px
+}
+.lof-slider-noshadown .lof-buttons-control{
+	position:absolute;
+	left:44%;
+	bottom:0;
+	width:100px;
+	height:31px;
+	background:url(images/buttonsc_bg.png) no-repeat center 1px;
+}
+
+.lof-slider-noshadown .lof-buttons-control .lof-next {float:right;text-indent:-999px;margin:10px 28px 0 0;background:url(images/arr_next.jpg) no-repeat right center;}
+.lof-slider-noshadown .lof-buttons-control .lof-previous {float:left;text-indent:-999px;margin:10px 0 0 28px;background:url(images/arr_pre.jpg) no-repeat left center;}
+.lof-slider-noshadown .lof-bottom-bg{	height:28px; width:100%;background:url(images/bottom-bg.png) no-repeat center;}
+
+/* CSS3 Style */
+.lof-slider-noshadown .lof-css3{	-moz-box-shadow:0 0 10px #333; -webkit-box-shadow:0 0 10px #333; box-shadow: 0px 0px 10px #333; }
+.lof-slider-noshadown .lof-css3 .lof-navigator-wapper{
+	-moz-box-shadow:0 0 8px #CCC;
+	-webkit-box-shadow:0 0 8px #CCC;
+	 box-shadow: 0px 0px 10px #333;
+}

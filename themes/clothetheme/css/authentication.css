@@ -1,0 +1,53 @@
+
+/* authentication.tpl */
+#create-account_form,
+ #authentication #login_form {
+	width: 49%;
+	height: 22em;
+	clear: none;
+	float: left
+} 
+#create-account_form h4 {
+	color: #B5B5B5;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 15px;
+}
+#create-account_form p.text,
+ #authentication #login_form p.text {
+	height: 3.4em;
+	margin-left: 16px;
+	padding-left: 0;
+	padding-right: 0
+}
+#authentication #login_form a {  color: #8A8989; text-decoration: none; }
+#authentication #login_form a:hover {  color: #000; }
+#create-account_form { margin-right: 11px }
+#create-account_form p.text {
+	text-align: left;
+	width: 100px
+}
+#authentication #create-account_form p.text label { width: 100px; color: #8A8989; }
+#authentication input#SubmitCreate,
+ #authentication input#SubmitLogin { margin: 0 }
+#authentication p.submit {
+	margin-right: 0;
+	text-align: left;
+	padding-left: 5% !important;
+}
+#authentication p.lost_password { padding-left: 20px }
+#authentication #create-account_form fieldset,
+ #authentication #login_form fieldset { height: 18em }
+#authentication p.submit span { padding-right: 0.5em }
+#create-account_form label, #authentication #login_form label {
+	float: none;
+	clear: both;
+	display: block;
+	text-align: left;
+	width: 100%;
+	margin-bottom: 0.3em
+}
+#account-creation_form input.text, 
+#account-creation_form #id_country, 
+#account-creation_form #id_state, 
+  #authentication textarea { width: 17em }

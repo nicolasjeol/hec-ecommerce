@@ -26,7 +26,7 @@
 */
 
 /* Debug only */
-@ini_set('display_errors', 'off');
+@ini_set('display_errors', 'on');
 define('_PS_DEBUG_SQL_', false);
 
 $start_time = microtime(true);
@@ -41,6 +41,7 @@ define('_PS_SSL_PORT_', 443);
 ini_set('upload_max_filesize', '100M');
 ini_set('default_charset', 'utf-8');
 ini_set('magic_quotes_runtime', 0);
+ini_set('memory_limit', '128M'); 
 
 // correct Apache charset (except if it's too late
 if (!headers_sent())

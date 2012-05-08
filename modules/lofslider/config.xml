@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>lofslider</name>
+	<displayName>Lof Slider Module</displayName>
+	<version>1.0.0</version>
+	<description>Lof Slider Module</description>
+	<author></author>
+	<tab>LandOfCoder</tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

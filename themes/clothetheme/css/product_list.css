@@ -1,0 +1,85 @@
+/* product-list.tpl */
+ul#product_list { margin-top: 2em; list-style-type: none }
+ul#product_list li {
+	border: 1px solid #E3E0E0;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0 0 1px;
+    width: 210px;
+}
+* html ul#product_list li {
+	height: auto !important;
+	height: 130px
+}
+ul#product_list li a {
+	color: #989898;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+}
+ul#product_list a.product_img_link {
+	float: left;
+	margin-right: 0.6em
+}
+ul#product_list a.product_img_link img { vertical-align: bottom; display: block }
+ul#product_list li h3 { margin: 1em 0; clear: both; }
+ul#product_list li .new {
+	background: transparent url(../img/flag_new_bg.jpg) repeat-x scroll 0%;
+	border: 1px solid #488C40;
+	color: white;
+	font-size: 0.6em;
+	font-weight: bold;
+	margin: 0 1em 0 0;
+	padding: 0 0.4em;
+	text-transform: uppercase;
+	vertical-align: 0.3em
+}
+ul#product_list li p.product_desc {
+	margin-bottom: 0;
+	font-size: 0.92em
+}
+ul#product_list li div.center_block {
+	float: left;
+    text-align: center;
+}
+ul#product_list li div.right_block {
+	float: left;
+    margin-left: 5em;
+    margin-top: 0;
+    text-align: center;
+    width: 9em;
+}
+ul#product_list li .discount, ul#product_list li .on_sale, ul#product_list li .online_only {
+	color: #da0f00;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block
+}
+ul#product_list li .reduction {
+	display: block;
+	margin-bottom: 0.3em
+}
+ul#product_list li .price {
+	display: block;
+	margin-bottom: 0.2em;
+	color:#F3751F;
+	font-size:18px;
+	fon-weight:normal;
+}
+ul#product_list li span.availability {
+	color: #488c40;
+	font-size: 0.9em
+}
+ul#product_list li a.button { margin-top: 1.5em }
+ul#product_list li p.compare input { vertical-align: text-bottom }
+#center_column p.compare{
+	margin: 0.5em 0 0.5em -32px;
+    padding-left: 0;
+    width: 154px;
+}
+#category-image_shadow {
+	background: url("../img/category-image_shadow.png") no-repeat scroll 0 0 transparent;
+    height: 30px;
+    margin-top: 10px;
+}

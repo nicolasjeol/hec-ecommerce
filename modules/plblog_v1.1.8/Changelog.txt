@@ -1,0 +1,15 @@
+Legend:
++ new feature added
+* bug fix
+
+1.1.8
+* Fix some words typo
+1.1.7
+* Fix translateable issue
+1.1.6
+*Fix warning message when using Debug mode
+1.1.5
+* Fix back office tab on multi language
+1.1.4
+ Module released
+

@@ -1,0 +1,43 @@
+/* 
+-------------------------------
+2 link - Akila Slideshow
+-------------------------------
+*/
+
+/*GENERIC GLOBAL STYLES*/
+#home_slideshow p{padding-bottom:1em;}
+#home_slideshow a{text-decoration:none; color:#cd2903;}
+#home_slideshow a:hover{text-decoration:underline;}
+.text_replace{background-repeat:no-repeat; outline:0; text-indent:-9999px;}
+a.text_replace:active{outline:0;}
+#home_slideshow{ 
+    background: url("background_repeater.png") repeat-y scroll 0 0 transparent;
+    margin-left: -28px;
+    *margin-left: -24px;
+    overflow: hidden;
+    padding-left: 28px;
+    *padding-left: 0px;
+    position: relative;
+    height:500px;
+    *height:550px;
+    width:1006px;
+    text-align:center;
+}
+}
+#home_slideshow #home_slideshow_violator{z-index:1000; background-color:transparent; width:210px; height:31px; float:left; position:relative; top:-50px; left:-20px;}
+#home_slideshow #home_slideshow_violator #project_caption{display:none; padding:4px 10px; color:#b6b077; float:left;}
+#home_slideshow #home_slideshow_violator #project_caption a{margin-left:8px;}
+#home_slideshow #home_slideshow_violator #slide_navigation{position:absolute;right:70px;top:355px; z-index:90;}
+#home_slideshow #home_slideshow_violator #slide_navigation a{ text-indent:-9999px; overflow:hidden; display:block; background-color:#fff; -moz-border-radius: 14px;height: 15px;width: 15px; float:left; margin-left:5px; cursor:pointer; overflow:hidden;color:#fff; border:solid 2px #333;}
+#home_slideshow #home_slideshow_violator #slide_navigation a:hover{ background-color:#ED7322;-moz-border-radius: 14px;height: 15px;width: 15px;color:#ED7322}
+#home_slideshow #home_slideshow_violator #slide_navigation a.activeSlide{  background-color: #ED7322;-moz-border-radius: 14px;height: 15px;width: 15px;color:#ED7322}
+#home_slideshow #home_slideshow_violator #slide_navigation a{outline:none;}
+#home_slideshow li span.slide_caption{display:none;}
+#home_slides{background-color:#fff; overflow:hidden; height:400px;}
+
+/*HACKS*/
+.clearfix:after {content:"."; display:block; height:0;clear:both; visibility:hidden;}
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+.clearfix {display:block;}
+/* End hide from IE Mac */

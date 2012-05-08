@@ -1,0 +1,61 @@
+/*Corregido por David M.*/
+
+ .carruselhome {
+            margin:0;
+            padding:0;
+            list-style:none;
+            text-align:center;
+			/*margin-left:75px*/
+        }
+        .simplecarruselmod {
+    background: url("../js/homespecial_footer.jpg") no-repeat scroll center bottom #FFFFFF;
+    border: 0px none;
+    height: 182px;
+    margin-left: 5px;
+    /*overflow: scroll;*/
+	margin-top: -76px;
+    position: relative;
+    width: 940px;
+}  
+        .next,
+        .prev {
+            cursor:pointer;
+			z-index: 50;
+        }
+		.prev {
+			/*background:url(../js/arrowl.gif)*/
+			
+			float:left;
+			margin-top:54px;
+			margin-left:0px;
+        }
+		.next {
+          /*background:url(../js/arrowr.gif)*/
+		  	float:right;
+			margin-top:54px;
+			margin-right:0px;
+        }
+		
+/*Fuente sustituta google*/
+.fuentegoogle {
+	margin-top:6px;
+	color:#fff;
+	font-family: 'Kameron', serif;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px #000;
+  text-align:center;
+  width:970px;
+  
+}
+.best_deal_mod {
+	background: url("../js/best-deal.png") no-repeat scroll 0 0 transparent;
+    height: 67px;
+    margin-left: -10px;
+    *margin-left: -958px;
+    margin-top: -130px;
+    *margin-top: -180px;
+    position: absolute;
+    width: 1006px;
+    z-index: 999999;
+}
+        

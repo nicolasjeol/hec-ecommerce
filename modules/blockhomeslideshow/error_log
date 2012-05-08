@@ -1,0 +1,26 @@
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Fatal error:  Class 'Module' not found in /home/phpsol/public_html/prestacommerce.net/theme1/modules/blockhomeslideshow/blockhomeslideshow.php on line 3
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:53] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Fatal error:  Class 'Module' not found in /home/phpsol/public_html/prestacommerce.net/theme1/modules/blockhomeslideshow/blockhomeslideshow.php on line 3
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[22-Apr-2011 13:29:54] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0

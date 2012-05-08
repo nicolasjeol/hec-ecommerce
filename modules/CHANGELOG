@@ -1,0 +1,17 @@
+This is a changelog for lofslider.
+Our thanks to all those people who've contributed bug reports and code fixes.
+
+Legend:
+
+#	Bug Fix
++	Addition
+^	Change
+-	Removed
+!	Note
+
+LofSlider 1.0.x
+*************************************
+
+2011 - 04 -15 Romeo.Tran landofcoder@gmail.com
+# Fix for can't load slideshow Header of pages.
+^ Moved javascript and css load from function hookHeader to function processHook

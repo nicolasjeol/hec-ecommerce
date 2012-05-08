@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-04-22 17:14:39
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-06 16:33:00
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/modules/blockcurrencies/blockcurrencies.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:8170017474f94205f1f9bc0-87465261%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4202594574fa68b9cbe63f0-73831508%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '8170017474f94205f1f9bc0-87465261',
+  'nocache_hash' => '4202594574fa68b9cbe63f0-73831508',
   'function' => 
   array (
   ),
