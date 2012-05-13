@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-08 02:58:44
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-12 18:54:24
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/magazine.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:4522097184fa86fc48b28c5-16150245%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11538215374fae95c076a9c5-97514505%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'dddcb5fb24fd4218c859bc0b987d96a57b0b1c61' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/magazine.tpl',
-      1 => 1336438719,
+      1 => 1336655099,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '4522097184fa86fc48b28c5-16150245',
+  'nocache_hash' => '11538215374fae95c076a9c5-97514505',
   'function' => 
   array (
   ),
@@ -20,12 +20,12 @@ $_smarty_tpl->decodeProperties(array (
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>YoxView demo - Basic usage</title>
-    <link rel="Stylesheet" type="text/css" href="http://localhost:8888/prestashop-hec/yoxview/yoxview.css"/>
+    <title>Magazine visibelly</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="http://localhost:8888/prestashop-hec/yoxview/yox.js"></script>
-        <script type="text/javascript" src="http://localhost:8888/prestashop-hec/yoxview/yoxview-init.js"></script>
-
+    <script type="text/javascript" src="<?php echo $_smarty_tpl->getVariable('base_dir')->value;?>
+/yoxview/yox.js"></script>
+        <script type="text/javascript" src="<?php echo $_smarty_tpl->getVariable('base_dir')->value;?>
+/yoxview/yoxview-init.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function(){

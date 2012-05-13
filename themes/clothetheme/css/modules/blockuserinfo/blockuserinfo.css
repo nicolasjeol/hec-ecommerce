@@ -3,17 +3,34 @@
 	background: url("../../../img/header_login_bg.png") no-repeat scroll 0 0 transparent;
     clear: both;
     color: #FFFFFF;
-    float: right;
+    /*float: right;*/
     height: 30px;
-    margin-right: 4px;
-    *margin-right: 0px;
-    margin-top: 23px;
+    /*position: absolute;*/
+    left: 856px;
+    top : 0px;
+    /*margin-right: 4px;*/
+    /*margin-top: -25px;*/
     padding-right: 40px;
     padding-top: 4px;
     text-align: right;
     width: 212px;
     z-index: 9999;
+    position: fixed;
 }
+/*#header_right #header_user {*/
+	/*background: url("../../../img/header_login_bg.png") no-repeat scroll 0 0 transparent;*/
+    /*clear: both;*/
+    /*color: #FFFFFF;*/
+    /*float: right;*/
+    /*height: 30px;*/
+    /*margin-right: 4px;*/
+    /*margin-top: -25px;*/
+    /*padding-right: 40px;*/
+    /*padding-top: 4px;*/
+    /*text-align: right;*/
+    /*width: 212px;*/
+    /*z-index: 9999;*/
+/*}*/
 #header_user p { color: #595a5e }
 #header_user a {color:#fff; text-decoration:none;}
 #header_user span { text-shadow: 1px 1px #B7AB8B; }

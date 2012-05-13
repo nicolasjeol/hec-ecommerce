@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-08 02:57:10
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-08 22:04:31
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/modules/lofslider/tmpl/default/default.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:554557254fa86f66a548f9-54434554%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14129920694fa97c4f6362f8-66171297%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '554557254fa86f66a548f9-54434554',
+  'nocache_hash' => '14129920694fa97c4f6362f8-66171297',
   'function' => 
   array (
   ),

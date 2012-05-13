@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-08 00:11:12
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-14 00:56:51
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/category.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:18004714534fa848806dedc2-62664107%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:15312476994fb03c33ddbe42-99634683%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18004714534fa848806dedc2-62664107',
+  'nocache_hash' => '15312476994fb03c33ddbe42-99634683',
   'function' => 
   array (
   ),

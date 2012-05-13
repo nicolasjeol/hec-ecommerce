@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-08 00:11:19
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-14 00:37:51
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/modules/crossselling/crossselling.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:21045463204fa84887005025-90060722%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:20624843214fb037bfcb88f1-72358578%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '21045463204fa84887005025-90060722',
+  'nocache_hash' => '20624843214fb037bfcb88f1-72358578',
   'function' => 
   array (
   ),

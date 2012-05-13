@@ -1,17 +1,74 @@
-This is a changelog for lofslider.
-Our thanks to all those people who've contributed bug reports and code fixes.
-
-Legend:
-
-#	Bug Fix
-+	Addition
-^	Change
--	Removed
-!	Note
-
-LofSlider 1.0.x
-*************************************
-
-2011 - 04 -15 Romeo.Tran landofcoder@gmail.com
-# Fix for can't load slideshow Header of pages.
-^ Moved javascript and css load from function hookHeader to function processHook
+5.1 (2012-01-23)
+    - Added Magic 360 (JS version) support.
+    - Fixed issue with replacement pictures of not standard size.
+    - Added UrlRewriting+ mod support.
+    - Fixed issue with mysql on windows.
+    - Added some minor improvements.
+5.0.4 (2011-06-30)
+    - Fix warning on category page when 'Activate legacy images compatibility' option is on
+5.0 (2011-06-20)
+    - Added templates for selectors
+    - Added Magic Scroll for selectors
+4.11 (2011-06-20)
+    - Added text description support to the images in custom slideshow block on home page.
+4.10 (2011-06-10)
+    - Added support for product listing pages (Category, Manufacturer, New product, Best sellers, Specials).
+    - Fix issue when the options with quotes in value are not saved.
+4.9 (2011-05-24)
+    - Fix issue when not included headers on home page.
+4.8 (2011-05-16)
+    - Improve compatibility with 'blockcart' module.
+4.7 (2011-04-21)
+    - Fix issue with not working parameters in Magic 360/Magic 360 Plus modules.
+4.6 (2011-04-20)
+    - Added support Prestashop 1.1.x
+4.5 (2011-04-11)
+    - Fix issue with the parameter "Enable effect" in admin area when its value is reset to "Yes".
+4.4 (2011-04-04)
+    - Fix issue with not working 'Add to cart' button (with 'blockcart' module).
+4.3 (2011-02-18)
+    - Added Magic 360 (Plus) support
+4.2 (2011-02-15)
+    - Added support Prestashop 1.4.x
+    - Added support for 'New products' block.
+4.1 (2011-01-14)
+    - Added Magic Scroll support
+4.0 (2010-12-20)
+    - Configuration improvements. Now supports custom options for different page.
+    - Slideshow can now be added as custom block on home page.
+    - Some bug fixes, code optimizations.
+3.2 (2010-10-15)
+    - Fix issue with some Prestashop module which reset the 'product' smarty variable.
+3.1 (2010-07-20)
+    - Changed parameter prefixes to fix issue with parameter length.
+3.0 (2010-06-24)
+    - Added support to Magic Slideshow module.
+    - Added support for 'Viewed products', 'Featured products' and 'Specials' blocks.
+    - Code rewrite.
+2.0 (2010-06-11)
+    - Added link to product page option.
+    - Added category page support.
+1.10 (2010-06-08)
+    - Changes in caption-source parameter to allow multiple sources.
+1.9 (2010-05-19)
+    - Fixed small error when using the full image path.
+1.8 (2010-04-15)
+    - Fixed thumb-change parameter.
+1.7 (2010-04-15)
+    - Fixed module error when there are products in the shopping cart.
+1.6 (2010-03-30)
+    - Added description for parameters in admin area.
+    - Added notes for parameters which sets image sizes.
+    - Fixed default value for 'large-image' parameter set to 'thickbox'.
+1.5 (2010-03-18)
+    - Color swatches improved.
+1.4 (2010-03-17)
+    - Added translation support.
+1.3 (2010-02-03)
+    - Headers for JavaScript and CSS only loaded when needed.
+1.2 (2010-02-02)
+    - Remove the native PrestaShop Thickbox effect from the main product image then only one image exists.
+1.1 (2010-01-13)
+    - Disable effect for products without images.
+1.0 (2009-11-08)
+    - Prestashop module created.

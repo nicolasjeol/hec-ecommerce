@@ -1,0 +1,124 @@
+/*
+
+
+   Magic 360 JS v2.1.1 
+   Copyright 2012 Magic Toolbox
+   Buy a license: www.magictoolbox.com/magic360/
+   License agreement: http://www.magictoolbox.com/license/
+
+
+*/
+
+.Magic360 {
+    padding: 0 !important;
+    outline: 0 !important;
+}
+.Magic360 img {
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.Magic360 .progress {
+    background: rgba(255,255,255,0.4);
+    width: 200px;
+    border:1px solid #000; 
+    border:1px solid rgba(0,0,0,0.5); 
+    -webkit-border-radius: 6px; 
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    line-height:10pt;
+    font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:10pt;
+    font-weight:bold;
+    text-decoration:none;
+    color:#000; 
+}
+
+.magic-for-ie5 .progress, .magic-for-ie6 .progress, .magic-for-ie7 .progress, .magic-for-ie8 .progress {
+    background: transparent !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#5cffffff', EndColorStr='#5cffffff');
+}
+
+.Magic360 .progress > div { 
+    padding:10px;
+}
+
+.Magic360 .progress > div > div { 
+    overflow:hidden;
+    padding:0;
+    margin:8px 0 0 0;
+    -webkit-border-radius: 6px; 
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    
+}
+.Magic360 .progress .bar { 
+    overflow: hidden;
+    padding:0;
+    background:#fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#c5c5c5), to(#ffffff));
+    background-image: -moz-linear-gradient(top,  #c5c5c5,  #ffffff);
+    background-image: -o-linear-gradient(90deg,#c5c5c5 0%, #ffffff 100%);
+    background-image: -ms-linear-gradient(90deg,#c5c5c5 0%, #ffffff 100%);
+    background-image: linear-gradient(90deg,#c5c5c5 0%, #ffffff 100%);
+    border:1px solid #ffffff; 
+    border:1px solid rgba(255,255,255,0.6); 
+    -webkit-border-radius: 6px; 
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.magic-for-ie5 .progress .bar, .magic-for-ie6 .progress .bar, .magic-for-ie7 .progress .bar
+, .magic-for-ie8 .progress .bar, .magic-for-ie9 .progress .bar {
+    background: transparent !important;
+     filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#c5c5c5', endColorstr='#ffffff');
+}
+ 
+.Magic360 .progress .bar .state {  
+    height:16px;
+    padding:0;
+    background:#fff url('graphics/progress.gif') top left repeat-x;
+    border-right:1px solid rgba(255,255,255,0.8); 
+}
+
+
+.Magic360 .magnifier {
+    -webkit-box-shadow: 0 0 10px #ccc;
+    -moz-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border-collapse: separate;
+    cursor: none;
+}
+.Magic360.magic-for-ie6 .magnifier, .Magic360.magic-for-ie7 .magnifier, .Magic360.magic-for-ie8 .magnifier {
+    border:  3px ridge #e7e7e7;
+}
+
+.Magic360 .controls {
+    cursor: pointer;
+    width: 64px;
+    height: 32px;
+    background: url('graphics/icons01.png');
+}
+
+.Magic360 .controls.magnify {
+    background-position: 0px 0px;
+}
+
+.Magic360 .controls.spin {
+    background-position: 0px 32px;
+}
+
+.Magic360 .controls .icon {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    float: left;
+}
+
+.Magic360 .icon-load {
+    background: url('graphics/loader.gif');
+    width: 42px;
+    height: 42px;
+}

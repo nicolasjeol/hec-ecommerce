@@ -1,27 +1,28 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-08 02:58:42
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-14 00:59:52
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/modules/blockhomeslideshow/blockhomeslideshow.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:4495068054fa86fc2657472-73093609%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19393559114fb03ce8c0de18-04194602%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '2fda73fa4b704210cc9f83966c786d6c5e7be189' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop-hec/modules/blockhomeslideshow/blockhomeslideshow.tpl',
-      1 => 1336380290,
+      1 => 1336949952,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '4495068054fa86fc2657472-73093609',
+  'nocache_hash' => '19393559114fb03ce8c0de18-04194602',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
 )); /*/%%SmartyHeaderCode%%*/?>
-<?php if (!is_callable('smarty_modifier_escape')) include '/Applications/MAMP/htdocs/prestashop-hec/tools/smarty/plugins/modifier.escape.php';
-?><?php if ($_smarty_tpl->getVariable('page_name')->value=='index'){?>
+<?php if ($_smarty_tpl->getVariable('page_name')->value=='index'){?>
 <!-- Module Editorial -->
 <link href="<?php echo $_smarty_tpl->getVariable('this_path')->value;?>
 js/prod.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->getVariable('base_dir')->value;?>
+/slider/css/global.css">
 <script type="text/javascript" src="<?php echo $_smarty_tpl->getVariable('this_path')->value;?>
 js/jquery_002.js"></script>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -62,103 +63,99 @@ update_slide_caption = function(next, previous)
 }
 </script>
 
-<script>
-    $(function () {
-        $("#slides").slides({
-            preload:true,
-//            preloadImage:'http://c935172.r72.cf3.rackcdn.com/canapé_convertible.jpg',
-//            preloadImage:"{$this_path}images/topimg/banner1.jpg",
-            play:5000,
-            pause:2500,
-            hoverPause:true
-        });
-    });
-</script>
 
-
-
-<style type="text/css" media="screen">
-    .slides_container {
-       margin: auto;
-       width:900px;
-       height:400px;
-        .border-radius(10px);
-
-     }
-     .slides_container div {
-       width:900px;
-       height:400px;
-       display:block;
-     }
-        </style>
-
-
-<div style="margin-top: 30px;" id="slides">
-    <div class="slides_container">
-        <div>
-            <img src="http://c935172.r72.cf3.rackcdn.com/canapé_convertible.jpg" alt="canape"/>
-        </div>
-        <div>
-            <img src="<?php echo $_smarty_tpl->getVariable('this_path')->value;?>
-/topimg/banner1.jpg" alt="men"/>
-        </div>
-        <div>
-            <img src="http://c935172.r72.cf3.rackcdn.com/chambre_en_mezzanine.jpg" alt="chambre"/>
-        </div>
-        <div>
-            <img src="http://c935172.r72.cf3.rackcdn.com/vu_autre_angle.jpg" alt="chambre autre angle"/>
-        </div>
-        <div>
-            <img src="http://c935172.r72.cf3.rackcdn.com/maison_vue_de_face.jpg" alt="maison"/>
-        </div>
-    </div>
-</div>
-
-
-    <?php if ($_smarty_tpl->getVariable('sale_products')->value>0){?>
-<!-- /Block slide show home page module -->
-<link href="<?php echo $_smarty_tpl->getVariable('this_path')->value;?>
-simple.carousel.0.3/clases.css" rel="stylesheet" type="text/css" media="all" />
-<link href='http://fonts.googleapis.com/css?family=Kameron:400&subset=latin&v2' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="<?php echo $_smarty_tpl->getVariable('this_path')->value;?>
-simple.carousel.0.3/simple.carousel.js"></script>
-
-<script type="text/javascript">
-       jQuery(document).ready(function() {
-            // example 1
-            $("ul.carruselhome").simplecarousel({
-                width:200,
-                height:145,
-                visible: 4,
-                auto: 8000,
-				fade: 600,
-                next: $('.next'),
-                prev: $('.prev')
+    <script>
+        $(function(){
+            $('#slides').slides({
+                preload: true,
+                preloadImage: "{$this_path}img/loading.gif",
+                play: 6000,
+                pause: 2500,
+                hoverPause: true,
+                animationStart: function(current){
+                    $('.caption').animate({
+                        bottom:-35
+                    },100);
+                    if (window.console && console.log) {
+                        // example return of current slide number
+                        console.log('animationStart on slide: ', current);
+                    };
+                },
+                animationComplete: function(current){
+                    $('.caption').animate({
+                        bottom:-130
+                    },200);
+                    if (window.console && console.log) {
+                        // example return of current slide number
+                        console.log('animationComplete on slide: ', current);
+                    };
+                },
+                slidesLoaded: function() {
+                    $('.caption').animate({
+                        bottom:-130
+                    },200);
+                }
             });
         });
-        
     </script>
 
-<div class="best_deal_mod"><div class="fuentegoogle"><?php echo smartyTranslate(array('s'=>'Ofertas','mod'=>'blockhomeslideshow'),$_smarty_tpl);?>
-</div></div>
-    <div class="simplecarruselmod">
-    <span class="prev"><img src="<?php echo $_smarty_tpl->getVariable('this_path')->value;?>
-/js/arrowl.gif" border="0"></span><span class="next"><img src="<?php echo $_smarty_tpl->getVariable('this_path')->value;?>
-/js/arrowr.gif"></span>
-    <ul class="carruselhome">
- <?php  $_smarty_tpl->tpl_vars['sale_product'] = new Smarty_Variable;
- $_from = $_smarty_tpl->getVariable('sale_products')->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-if ($_smarty_tpl->_count($_from) > 0){
-    foreach ($_from as $_smarty_tpl->tpl_vars['sale_product']->key => $_smarty_tpl->tpl_vars['sale_product']->value){
-?>  
- 	<li>
-		<a href="<?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['sale_product']->value['link'],'htmlall','UTF-8');?>
-"><img src="<?php echo $_smarty_tpl->getVariable('link')->value->getImageLink($_smarty_tpl->tpl_vars['sale_product']->value['link_rewrite'],$_smarty_tpl->tpl_vars['sale_product']->value['id_image'],'home_special');?>
-" /></a>
-	</li>
- <?php }} ?>
-</ul>
-</div>
 
-<?php }?>
+
+
+		<div id="container" style="position: absolute; left: 155px; top : 157px; ">
+		<div id="example">
+			<div id="slides">
+				<div class="slides_container">
+                  	<div class="slide">
+						<img style="width: 950px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+slider/Feel-legendary.gif" alt="Vintage" title="Vintage"/>
+					</div>
+					<div class="slide">
+						<img src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+slider/Trendy.gif" alt="Trendy" title="Trendy"/>
+					</div>
+					<div class="slide">
+                        <a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('contact-form.php');?>
+" > <img style="width: 950px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+slider/Become-unique.gif" alt="find your look"/> </a>
+					</div>
+					<div class="slide">
+                    <a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('magazine.php');?>
+"> <img src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+slider/magazine2.png" alt="magazine"/> </a>
+					</div>
+				</div>
+				<a href="#" class="prev"><img src="<?php echo $_smarty_tpl->getVariable('base_dir')->value;?>
+/slider/img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="<?php echo $_smarty_tpl->getVariable('base_dir')->value;?>
+/slider/img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+			</div>
+		</div>
+	</div>
+
+   <a href="product.php?id_product=1495"> <img style="width: 167px; position: absolute; left: 1100px; top : 563px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+slider/commentary.png" alt="comment customer" title="comment customer"/>
+    </a>
+
+    <div>
+        <img style="position: absolute; left: 145px; top : 608px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+advantages/vintage.png" alt="vintage glasses" title="vintage glasses"/>
+        <img style="position: absolute; left: 393px; top : 609px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+advantages/trendy.png" alt="trendy glasses" title="trendy glasses"/>
+        <a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('magazine.php');?>
+">
+            <img style="position: absolute; left: 640px; top : 609px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+advantages/visibellymag.png" alt="Magazine of Visibelly" title="Magazine of Visibelly"/>
+        </a>
+        <a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('contact-form.php');?>
+">
+            <img style="position: absolute; left: 894px; top : 609px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+advantages/designer.png" alt="designer of visibelly" title="designer of visibelly"/>
+        </a>
+
+        <img style="width : 980px; position: absolute; left: 137px; top : 950px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+advantages/sumup.png" alt="sumup visibelly" title="sumup visibelly"/>
+    </div>
+
+
 <?php }?>

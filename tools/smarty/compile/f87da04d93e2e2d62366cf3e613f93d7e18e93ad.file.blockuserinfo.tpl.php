@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-08 02:58:42
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-14 00:59:52
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/modules/blockuserinfo/blockuserinfo.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10730709584fa86fc2417a53-86005850%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5547228214fb03ce8a2fb04-29148969%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f87da04d93e2e2d62366cf3e613f93d7e18e93ad' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/modules/blockuserinfo/blockuserinfo.tpl',
-      1 => 1336424493,
+      1 => 1336913718,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10730709584fa86fc2417a53-86005850',
+  'nocache_hash' => '5547228214fb03ce8a2fb04-29148969',
   'function' => 
   array (
   ),
@@ -58,31 +58,39 @@ $_smarty_tpl->decodeProperties(array (
 <a id="header_logo" href="<?php echo $_smarty_tpl->getVariable('base_dir')->value;?>
 " title="<?php echo smarty_modifier_escape($_smarty_tpl->getVariable('shop_name')->value,'htmlall','UTF-8');?>
 ">
-	<img class="logo" src="<?php echo $_smarty_tpl->getVariable('img_dir')->value;?>
-logo.jpg?<?php echo $_smarty_tpl->getVariable('img_update_time')->value;?>
+	<img class="logo" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+Visibellydotcom.png?<?php echo $_smarty_tpl->getVariable('img_update_time')->value;?>
 " alt="<?php echo smarty_modifier_escape($_smarty_tpl->getVariable('shop_name')->value,'htmlall','UTF-8');?>
 " />
 </a>
 <ul>
-	<li <?php if ($_smarty_tpl->getVariable('page_name')->value=='index'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('index.php');?>
-"><?php echo smartyTranslate(array('s'=>'Home'),$_smarty_tpl);?>
-</a></li>
 	<li <?php if ($_smarty_tpl->getVariable('page_name')->value=='sitemap'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('sitemap.php');?>
 "><?php echo smartyTranslate(array('s'=>'Sitemap'),$_smarty_tpl);?>
 </a></li>
 	<li <?php if ($_smarty_tpl->getVariable('page_name')->value=='new-products'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('new-products.php');?>
 "><?php echo smartyTranslate(array('s'=>'New Products'),$_smarty_tpl);?>
 </a></li>
-	<li <?php if ($_smarty_tpl->getVariable('page_name')->value=='about-us'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('cms.php?id_cms=4');?>
-"><?php echo smartyTranslate(array('s'=>'About Us'),$_smarty_tpl);?>
-</a></li>
-	<li class="<?php if ($_smarty_tpl->getVariable('page_name')->value=='contact-form'){?>select<?php }?>"><a class="last" href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('contact-form.php');?>
-"><?php echo smartyTranslate(array('s'=>'Contact'),$_smarty_tpl);?>
-</a></li>
     <li <?php if ($_smarty_tpl->getVariable('page_name')->value=='magazine'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('magazine.php');?>
 "><?php echo smartyTranslate(array('s'=>'Magazine'),$_smarty_tpl);?>
 </a></li>
+    <li <?php if ($_smarty_tpl->getVariable('page_name')->value=='new-products'){?>class="select"<?php }?>><a class="last" href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('findyourstyle.php');?>
+"><?php echo smartyTranslate(array('s'=>'Find your style'),$_smarty_tpl);?>
+</a></li>
 </ul>
 </div>
-				
+
+<div id="loveyourglasse">
+    <img style="position: absolute; left : 155px; top : 104px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+loveyourglasses2.png" alt="love your glasses" />
+</div>
+
 <!-- /Block user information module HEADER -->
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="left:0px;top:205px;">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_preferred_3"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4fab92e57d735698"></script>
+<!-- AddThis Button END -->

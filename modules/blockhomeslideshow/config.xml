@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>blockhomeslideshow</name>
-	<displayName>Slide Show Home Block</displayName>
-	<version>0.1</version>
-	<description>Adds a slide show to the home page.</description>
-	<author></author>
-	<tab>Blocks</tab>
+	<displayName><![CDATA[Slide Show Home Block]]></displayName>
+	<version><![CDATA[0.1]]></version>
+	<description><![CDATA[Adds a slide show to the home page.]]></description>
+	<author><![CDATA[]]></author>
+	<tab><![CDATA[Blocks]]></tab>
 	<is_configurable>1</is_configurable>
-	<need_instance>0</need_instance>
+	<need_instance>1</need_instance>
 	<limited_countries></limited_countries>
 </module>

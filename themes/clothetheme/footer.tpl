@@ -31,12 +31,6 @@
 <!-- Footer -->
 			<div id="footer">{$HOOK_FOOTER}</div>
 		</div>
-		<div class="footer_bg">&nbsp;</div>
-        <div class="footer_prestadesigner">
-        <div class="copyright_link">
-        <a id="prestadesigner" title="Prestashop Themes" href="http://prestadesigner.com" target="_blank"></a>
-        </div>
-        </div>
 	{/if}
 	</body>
 </html>

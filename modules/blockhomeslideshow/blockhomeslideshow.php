@@ -238,7 +238,7 @@ class BlockHomeSlideshow extends Module
 		
 		$smarty->assign(array(
 			'outputtops' => $outputtop,
-			'outputbtms' => $outputbtm,
+//			'outputbtms' => $outputbtm,
 			'this_path' => $this->_path,
 			'sale_products' => $products
 		));		

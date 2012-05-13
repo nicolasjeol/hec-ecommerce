@@ -1,34 +1,34 @@
 #######################################################
 
- Lof Slider
- Prestashop module version 1.0.0
+ Magic Zoom Plus™
+ Prestashop module version v5.1.10 [v1.1.23:v4.0.11]
  
- www.landofcoder.com
- landofcoder@gmail.com
+ www.magictoolbox.com
+ support@magictoolbox.com
 
- Copyright 2011 LandOfCoder
+ Copyright 2012 Magic Toolbox
 
 #######################################################
 
 INSTALLATION:
 
-1. Unzip the folder 'lofslider' from this archive to the 'modules/' directory of your PrestaShop store.
+1. Unzip the folder 'magiczoomplus' from this archive to the 'modules/' directory of your PrestaShop store.
 
 2. Activate the module through the 'Modules' menu in your PrestaShop administrative panel.
 
-3. You've now installed lof Slider!
+
+
+3. You've now installed Magic Zoom Plus!
 
 4. To setup your page, go to:
 
-Admin > Modules > Lof Slider
-
-Full Guider: 
+Admin > Modules > Magic Zoom Plus
 
 Further information:
 
-http://landofcoder.com/our-porfolios/prestashop.html
+http://www.magictoolbox.com/magiczoomplus/modules/prestashop/
 
 Tech support:
 
-http://landofcoder.com/forum/forum.html?id=39
+http://www.magictoolbox.com/contact/
 

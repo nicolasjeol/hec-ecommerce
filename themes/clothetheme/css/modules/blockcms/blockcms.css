@@ -1,15 +1,23 @@
 #footer .block_various_links {
  	float: left;
     list-style: none outside none;
-    margin-left: 28px;
+    margin-left: 79px;
     margin-right: 25px;
     margin-top: 40px;
     width: 263px;
 }
+/*#footer .block_various_links {*/
+ 	/*float: left;*/
+    /*list-style: none outside none;*/
+    /*margin-left: 155px;*/
+    /*margin-right: 25px;*/
+    /*margin-top: 40px;*/
+    /*width: 263px;*/
+/*}*/
 #footer .footer_newsletter {
     float: left;
     list-style: none outside none;
-    margin-left: 28px;
+    margin-left: 57px;
     margin-right: 25px;
     margin-top: 40px;
     width: 263px;
@@ -44,7 +52,7 @@
 #footer .button_small{
 	margin-left: 165px;
 }
-#footer .block_various_links.last { margin-right:0;}
+#footer .block_various_links.last { margin-left: 51px;}
 #footer .block_various_links li a { color: #EFEFEF; font-size: 12px; text-decoration: none; padding-left: 8px; }
 #footer .block_various_links li a:hover { color: #ccc; }
 #footer .block_various_links li {

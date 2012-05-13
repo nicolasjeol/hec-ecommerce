@@ -1,12 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>YoxView demo - Basic usage</title>
-    <link rel="Stylesheet" type="text/css" href="http://localhost:8888/prestashop-hec/yoxview/yoxview.css"/>
+    <title>Magazine visibelly</title>
+{*    <link rel="Stylesheet" type="text/css" href="http://localhost:8888/prestashop-hec/yoxview/yoxview.css"/>*}
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="http://localhost:8888/prestashop-hec/yoxview/yox.js"></script>
-        <script type="text/javascript" src="http://localhost:8888/prestashop-hec/yoxview/yoxview-init.js"></script>
-
+    <script type="text/javascript" src="{$base_dir}/yoxview/yox.js"></script>
+{*    <script type="text/javascript" src="http://localhost:8888/prestashop-hec/yoxview/yox.js"></script>*}
+        <script type="text/javascript" src="{$base_dir}/yoxview/yoxview-init.js"></script>
+{*        <script type="text/javascript" src="http://localhost:8888/prestashop-hec/yoxview/yoxview-init.js"></script>*}
+{*$base_dir_ssl*}
 
     <script type="text/javascript">
         $(document).ready(function(){
