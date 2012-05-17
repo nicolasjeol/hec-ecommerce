@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-14 00:41:40
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-15 13:43:34
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/order-carrier.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:18118529824fb038a4540222-72395780%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:7160100864fb241668cea42-36541028%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ccc6832864b9c93e33d9bad5fb91af3f9ba424e7' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/order-carrier.tpl',
-      1 => 1336325339,
+      1 => 1337082193,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18118529824fb038a4540222-72395780',
+  'nocache_hash' => '7160100864fb241668cea42-36541028',
   'function' => 
   array (
   ),
@@ -125,8 +125,7 @@ $_smarty_tpl->decodeProperties(array (
 </th>
 				<th class="carrier_infos item"><?php echo smartyTranslate(array('s'=>'Information'),$_smarty_tpl);?>
 </th>
-				<th class="carrier_price last_item"><?php echo smartyTranslate(array('s'=>'Price'),$_smarty_tpl);?>
-</th>
+				<th class="carrier_price last_item"> Free delivery</th>
 			</tr>
 		</thead>
 		<tbody>

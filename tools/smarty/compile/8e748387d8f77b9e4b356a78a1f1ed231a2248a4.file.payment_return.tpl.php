@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-07 22:33:58
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-14 15:31:32
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/modules/cheque/payment_return.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10059789274fa831b6958ca8-88678235%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:6559960724fb1093481d558-06014049%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10059789274fa831b6958ca8-88678235',
+  'nocache_hash' => '6559960724fb1093481d558-06014049',
   'function' => 
   array (
   ),

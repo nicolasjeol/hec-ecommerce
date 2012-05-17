@@ -499,6 +499,7 @@ class FrontControllerCore
 		self::$smarty->assign(array(
 			'HOOK_HEADER' => Module::hookExec('header'),
 			'HOOK_TOP' => Module::hookExec('top'),
+            'HOOK_BEAUFILTER' => Module::hookExec('beaufilter'),
 			'HOOK_LEFT_COLUMN' => Module::hookExec('leftColumn')
 		));
 

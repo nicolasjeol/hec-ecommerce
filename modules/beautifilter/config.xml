@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>beautifilter</name>
+	<displayName>Beautiful product filter</displayName>
+	<version>1.3</version>
+	<description>Beautiful product filter using ajax.</description>
+	<author>Vietmoonlight</author>
+	<tab>front_office_features</tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

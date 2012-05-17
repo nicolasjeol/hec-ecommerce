@@ -91,3 +91,9 @@
 		<p class="warning">{l s='This category is currently unavailable.'}</p>
 	{/if}
 {/if}
+
+{*<div style="width: 220px; background-color: red; position: absolute; left: 50px; top: 600px;">*}
+{*    <p>*}
+{*        LALALALAL*}
+{*    </p>*}
+{*</div>*}

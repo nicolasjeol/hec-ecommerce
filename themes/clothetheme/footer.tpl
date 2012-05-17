@@ -29,6 +29,7 @@
 			</div>
 
 <!-- Footer -->
+        <img style="width : 979px; margin-left: 12px; margin-bottom: -13px;" src="{$img_prod_dir}advantages/sumup.png" alt="sumup visibelly" title="sumup visibelly"/>
 			<div id="footer">{$HOOK_FOOTER}</div>
 		</div>
 	{/if}

@@ -99,4 +99,8 @@
 	{/if}
 	</div>
 	<!-- /Pagination -->
+
+{*    <br /><br /><br /><br />*}
+{*        <img style="width : 675px;" src="{$img_prod_dir}advantages/sumup.png" alt="sumup visibelly" title="sumup visibelly"/>*}
+    
 {/if}

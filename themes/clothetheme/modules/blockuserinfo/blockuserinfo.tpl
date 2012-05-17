@@ -57,12 +57,16 @@
 {*</a>*}
 <ul>
 {*	<li {if $page_name eq 'index'}class="select"{/if}><a href="{$link->getPageLink('index.php')}">{l s='Home'}</a></li>*}
-	<li {if $page_name eq 'sitemap'}class="select"{/if}><a href="{$link->getPageLink('sitemap.php')}">{l s='Sitemap'}</a></li>
-	<li {if $page_name eq 'new-products'}class="select"{/if}><a href="{$link->getPageLink('new-products.php')}">{l s='New Products'}</a></li>
+{*	<li {if $page_name eq 'sitemap'}class="select"{/if}><a href="{$link->getPageLink('sitemap.php')}">{l s='Sitemap'}</a></li>*}
 {*	<li {if $page_name eq 'about-us'}class="select"{/if}><a href="{$link->getPageLink('cms.php?id_cms=4')}">{l s='About Us'}</a></li>*}
 {*	<li class="{if $page_name eq 'contact-form'}select{/if}"><a  href="{$link->getPageLink('contact-form.php')}">{l s='Contact'}</a></li>*}
-    <li {if $page_name eq 'magazine'}class="select"{/if}><a href="{$link->getPageLink('magazine.php')}">{l s='Magazine'}</a></li>
-    <li {if $page_name eq 'new-products'}class="select"{/if}><a class="last" href="{$link->getPageLink('findyourstyle.php')}">{l s='Find your style'}</a></li>
+
+    <li {if $page_name eq 'vintage'}class="select"{/if}><a href="{$link->getPageLink('category.php?id_category=65')}">{l s='Vintage'}</a></li>
+    <li {if $page_name eq 'trendy'}class="select"{/if}><a href="{$link->getPageLink('category.php?id_category=68')}">{l s='Trendy'}</a></li>
+	<li {if $page_name eq 'new-products'}class="select"{/if}><a href="{$link->getPageLink('new-products.php')}">{l s='New Products'}</a></li>
+    <li {if $page_name eq 'findyourstyle'}class="select"{/if}><a href="{$link->getPageLink('findyourstyle.php')}">{l s='Find your style'}</a></li>
+    <li {if $page_name eq 'magazine'}class="select"{/if}><a class="last" href="{$link->getPageLink('magazine.php')}">{l s='Magazine'}</a></li>
+
 </ul>
 </div>
 
@@ -75,7 +79,7 @@
 <!-- AddThis Button BEGIN -->
 <div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="left:0px;top:205px;">
 <a class="addthis_button_preferred_1"></a>
-<a class="addthis_button_preferred_4"></a>
+{*<a class="addthis_button_preferred_4"></a>*}
 {*<a class="addthis_button_preferred_2"></a>*}
 <a class="addthis_button_preferred_3"></a>
 {*<a class="addthis_button_compact"></a>*}

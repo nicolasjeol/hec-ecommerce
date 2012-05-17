@@ -76,7 +76,8 @@
 			</div>
 		<div id="page" {if $page_name eq 'index'}style="margin-top:0; *margin-top:0;"{/if}>
  		<div id="page_inner">
-			<div id="columns">
+			{$HOOK_BEAUFILTER}
+            <div id="columns">
 				<!-- Left -->
 				<div id="left_column" class="column">
 					{$HOOK_LEFT_COLUMN}

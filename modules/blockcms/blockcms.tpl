@@ -58,5 +58,21 @@
 		{/foreach}
 		{if $display_poweredby}<li class="last_item">{l s='Powered by' mod='blockcms'} <a href="http://www.prestashop.com">PrestaShop</a>&trade;</li>{/if}
 	</ul>
-	<!-- /MODULE Block footer -->
+
+    <p>
+        Visibelly is a website where stylish people can buy vintage glasses online and buy trendy glasses online.
+    </p>
+      <p>
+    This is the place for finding the most Stylish Glasses in France and also the most Stylish Glasses in Germany.
+    </p>
+    <p>
+        To keep up with the latest style trends for eyeglasses, read our sunglass magazine online.
+    </p>
+    <p>
+     Also check out our selection of celebrity sunglasses to get the Johnny Depp and Lady Gaga glasses look.
+    </p>
+    <p>
+    Visibelly offers not only eyeglasses with free trial in France, but also eyeglasses with free trial in Germany.
+	</p>
+    <!-- /MODULE Block footer -->
 {/if}

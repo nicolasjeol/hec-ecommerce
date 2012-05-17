@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-14 00:59:53
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-18 01:00:29
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:20818309384fb03ce9c2e217-32303832%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:12322552224fb5830dee5b81-77491013%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4b4791bd8693eaa8bb6b9a6820c3c94a46810aff' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/header.tpl',
-      1 => 1336325339,
+      1 => 1337186203,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '20818309384fb03ce9c2e217-32303832',
+  'nocache_hash' => '12322552224fb5830dee5b81-77491013',
   'function' => 
   array (
   ),
@@ -104,7 +104,9 @@ if ($_smarty_tpl->_count($_from) > 0){
 			</div>
 		<div id="page" <?php if ($_smarty_tpl->getVariable('page_name')->value=='index'){?>style="margin-top:0; *margin-top:0;"<?php }?>>
  		<div id="page_inner">
-			<div id="columns">
+			<?php echo $_smarty_tpl->getVariable('HOOK_BEAUFILTER')->value;?>
+
+            <div id="columns">
 				<!-- Left -->
 				<div id="left_column" class="column">
 					<?php echo $_smarty_tpl->getVariable('HOOK_LEFT_COLUMN')->value;?>

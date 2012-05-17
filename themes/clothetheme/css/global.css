@@ -30,6 +30,7 @@ body {
 .span_link { cursor: pointer }
 .span_link:hover { text-decoration: underline }
 .clear { clear: both }
+
 br.clear {
 	clear: both;
 	line-height: 0;
@@ -332,8 +333,8 @@ img.logo {
     /*margin-top: 45px;*/
     padding: 11px;
     position: absolute;
-    left: 713px;
-    top : 57px;
+    left: 599px;
+    top : 55px;
 }
 /*#header-bg ul{*/
   	/*border-color: #DDDDDD #F3F3F3 #F3F3F3;*/
@@ -366,9 +367,10 @@ img.logo {
 }
 #header-bg ul li a{
 	border-right: 1px solid #D9D9D9;
-    color: #555555;
+    /*color: #555555;*/
+    color: #675850;
     font-family: "Calisto MT",Arial;
-    font-size: 14px;
+    font-size: 16px;
     padding-right: 15px;
     text-decoration: none;
 }

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-14 00:59:54
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-18 01:00:30
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1122177144fb03cea772f31-59534938%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:7911653844fb5830ed64716-99503727%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c2aca428e06a7bcebff1afaca98f01692cce698e' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/footer.tpl',
-      1 => 1336694881,
+      1 => 1337290860,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1122177144fb03cea772f31-59534938',
+  'nocache_hash' => '7911653844fb5830ed64716-99503727',
   'function' => 
   array (
   ),
@@ -24,6 +24,8 @@ $_smarty_tpl->decodeProperties(array (
 			</div>
 
 <!-- Footer -->
+        <img style="width : 979px; margin-left: 12px; margin-bottom: -13px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+advantages/sumup.png" alt="sumup visibelly" title="sumup visibelly"/>
 			<div id="footer"><?php echo $_smarty_tpl->getVariable('HOOK_FOOTER')->value;?>
 </div>
 		</div>

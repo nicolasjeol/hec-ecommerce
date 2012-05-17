@@ -126,6 +126,7 @@
 					</td>
 					<td class="carrier_infos">{$carrier.delay|escape:'htmlall':'UTF-8'}</td>
 					<td class="carrier_price">
+{*							{l s='Free!'}*}
 						{if $carrier.price}
 							<span class="price">
 								{if $priceDisplay == 1}{convertPrice price=$carrier.price_tax_exc}{else}{convertPrice price=$carrier.price}{/if}

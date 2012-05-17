@@ -1,0 +1,29 @@
+/**
+* Beautifilter v1.2 for Prestashop 1.4 by Vietmoonlight Co., Ltd
+* GNU General Public License.
+* Need to support ? Contact us : Gmail : customers@vietmoonlight.com , Website : vietmoonlight.com/en/
+Based on Block layer Module by Prestashop
+**/
+#layered_block_left {background:url(filterhaha.png) no-repeat right bottom; margin-bottom:15px; clear:both}
+#layered_block_left form{background:url(filterhoho.png) no-repeat left bottom;padding-bottom:15px;}
+#layered_block_left .owaci_filterjoomjoom { width:100%; clear:both;min-height:30px;}
+#layered_block_left .owaci_filterjoomjoom:hover{background:url(bggrrr.png) left bottom}
+#layered_block_left #enabled_filters {min-height:30px; background:url() #ed008c; line-height:30px;}
+#layered_block_left #enabled_filters a {text-decoration: none;color: red;}
+#layered_block_left div.nomargin label {cursor: pointer; padding:2px 5px;}
+#layered_block_left div.nomargin label.disabled {cursor:auto; color:#ccc}
+#layered_block_left div.nomargin input.owaci_filter_color{border:2px solid #eee; margin:5px 0px 0px 3px!important; cursor:pointer;}
+#layered_block_left div.nomargin input.owaci_filter_color:hover{border:2px solid #fff}
+#layered_block_left div.nomargin input.owaci_filter_color_checked{border:2px solid #aee756; margin:5px 0px 0px 3px!important; cursor:pointer;}
+#layered_block_left div.nomargin label.owaci_filter_checked{background-color:#eee;-moz-border-radius:2px;-webkit-border-radius:2px;}
+#layered_block_left div.nomargin {padding-left:15px; height:29px; line-height:29px; float:left; width:140px}
+#layered_block_left div.owaci_filter_result {padding-left:20px; min-height:30px; line-height:30px; float:left; width:140px}
+#layered_block_left .layered_subtitle {float: left; width:160px;border-bottom:1px solid #f456b7;  line-height:29px; padding:0px 10px; font-size:1.1em;color:#fff; text-align:right}
+#layered_block_left .layered_content { float:left; width:799px;background-color:#fff;border-bottom:1px solid #e8e8ea; border-right:1px solid #ed008c}
+#layered_block_left #enabled_filters .layered_subtitle,#layered_block_left #enabled_filters .layered_content {border:0;}
+#layered_block_left .owaci_filterjoomjoom:hover .layered_content {background:url() #f8f8f8;}
+#layered_block_left span.layered_close a { text-decoration: none; }
+#layered_block_left ul li .disabled {color: #666;}
+.layered_slider {float:left}
+#owaci_filter_closed {width:980px; height:37px; background:url(tirette.png) no-repeat center bottom;position: absolute;cursor: pointer;}
+.owaci_filter_ajax{position: absolute; width:980px; text-align:center}

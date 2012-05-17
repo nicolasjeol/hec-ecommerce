@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-14 00:59:52
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-18 01:00:28
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/modules/blockuserinfo/blockuserinfo.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5547228214fb03ce8a2fb04-29148969%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:20300892314fb5830ce57b49-55928990%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f87da04d93e2e2d62366cf3e613f93d7e18e93ad' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/modules/blockuserinfo/blockuserinfo.tpl',
-      1 => 1336913718,
+      1 => 1337292844,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5547228214fb03ce8a2fb04-29148969',
+  'nocache_hash' => '20300892314fb5830ce57b49-55928990',
   'function' => 
   array (
   ),
@@ -64,18 +64,23 @@ Visibellydotcom.png?<?php echo $_smarty_tpl->getVariable('img_update_time')->val
 " />
 </a>
 <ul>
-	<li <?php if ($_smarty_tpl->getVariable('page_name')->value=='sitemap'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('sitemap.php');?>
-"><?php echo smartyTranslate(array('s'=>'Sitemap'),$_smarty_tpl);?>
+
+    <li <?php if ($_smarty_tpl->getVariable('page_name')->value=='vintage'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('category.php?id_category=65');?>
+"><?php echo smartyTranslate(array('s'=>'Vintage'),$_smarty_tpl);?>
+</a></li>
+    <li <?php if ($_smarty_tpl->getVariable('page_name')->value=='trendy'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('category.php?id_category=68');?>
+"><?php echo smartyTranslate(array('s'=>'Trendy'),$_smarty_tpl);?>
 </a></li>
 	<li <?php if ($_smarty_tpl->getVariable('page_name')->value=='new-products'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('new-products.php');?>
 "><?php echo smartyTranslate(array('s'=>'New Products'),$_smarty_tpl);?>
 </a></li>
-    <li <?php if ($_smarty_tpl->getVariable('page_name')->value=='magazine'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('magazine.php');?>
-"><?php echo smartyTranslate(array('s'=>'Magazine'),$_smarty_tpl);?>
-</a></li>
-    <li <?php if ($_smarty_tpl->getVariable('page_name')->value=='new-products'){?>class="select"<?php }?>><a class="last" href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('findyourstyle.php');?>
+    <li <?php if ($_smarty_tpl->getVariable('page_name')->value=='findyourstyle'){?>class="select"<?php }?>><a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('findyourstyle.php');?>
 "><?php echo smartyTranslate(array('s'=>'Find your style'),$_smarty_tpl);?>
 </a></li>
+    <li <?php if ($_smarty_tpl->getVariable('page_name')->value=='magazine'){?>class="select"<?php }?>><a class="last" href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('magazine.php');?>
+"><?php echo smartyTranslate(array('s'=>'Magazine'),$_smarty_tpl);?>
+</a></li>
+
 </ul>
 </div>
 
@@ -89,7 +94,6 @@ loveyourglasses2.png" alt="love your glasses" />
 <!-- AddThis Button BEGIN -->
 <div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="left:0px;top:205px;">
 <a class="addthis_button_preferred_1"></a>
-<a class="addthis_button_preferred_4"></a>
 <a class="addthis_button_preferred_3"></a>
 </div>
 <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4fab92e57d735698"></script>
