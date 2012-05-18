@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-18 03:42:48
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-18 04:29:54
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/modules/blockcms/blockcms.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1154224324fb5a91896fd13-68046736%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9974238594fb5b4226ad852-69587488%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'dbff1fb775ac150dba0b07e08ef7c085031dd7b9' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/modules/blockcms/blockcms.tpl',
-      1 => 1336325339,
+      1 => 1337306470,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1154224324fb5a91896fd13-68046736',
+  'nocache_hash' => '9974238594fb5b4226ad852-69587488',
   'function' => 
   array (
   ),
@@ -87,7 +87,7 @@ if ($_smarty_tpl->_count($_from) > 0){
 	</ul>
 </div>
 
-<div class="footer_newsletter">
+<div id="newsletter_footer" class="footer_newsletter">
 	<h2><?php echo smartyTranslate(array('s'=>'Newsletter','mod'=>'blockcms'),$_smarty_tpl);?>
 </h2>
 	<div class="block_content">

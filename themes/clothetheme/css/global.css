@@ -274,7 +274,7 @@ img.logo {
     width: 953px;
 }
 #header {
-    height: 1200px;
+    height: 1140px;
     /*height: 670px;*/
 	/*height: 135px;*/
     margin: 0 auto;
@@ -942,9 +942,21 @@ span.stepo{
     clear: both;
     min-height: 300px;
     padding: 0.5em 0;
-    width: 110%;
-    margin-left: -50px;
+    width: 950px;
+    margin-left: 28px;
 }
+
+/*before change*/
+/*#footer {*/
+	/*background: none repeat scroll 0 0 #675850;*/
+    /*background: url("../img/footer-visibelly.jpg") repeat-x;*/
+    /*background-color: #675850;*/
+    /*clear: both;*/
+    /*min-height: 300px;*/
+    /*padding: 0.5em 0;*/
+    /*width: 110%;*/
+    /*margin-left: -50px;*/
+/*}*/
 /*#footer {*/
 	/*background: none repeat scroll 0 0 #675850;*/
     /*background: url("../img/footer-visibelly.jpg") repeat-x;*/

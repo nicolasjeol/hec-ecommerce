@@ -56,7 +56,7 @@
 	</ul>
 </div>
 
-<div class="footer_newsletter">
+<div id="newsletter_footer" class="footer_newsletter">
 	<h2>{l s='Newsletter' mod='blockcms'}</h2>
 	<div class="block_content">
 	{if isset($msg) && $msg}

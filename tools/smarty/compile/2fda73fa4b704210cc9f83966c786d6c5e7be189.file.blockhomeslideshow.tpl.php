@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-18 03:42:47
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-18 04:29:53
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/modules/blockhomeslideshow/blockhomeslideshow.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:8624257354fb5a91712f469-62635010%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17948140764fb5b4218e2dd6-67808358%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '2fda73fa4b704210cc9f83966c786d6c5e7be189' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop-hec/modules/blockhomeslideshow/blockhomeslideshow.tpl',
-      1 => 1337294191,
+      1 => 1337306505,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '8624257354fb5a91712f469-62635010',
+  'nocache_hash' => '17948140764fb5b4218e2dd6-67808358',
   'function' => 
   array (
   ),
@@ -161,35 +161,37 @@ slider/commentary.png" alt="comment customer"
 <div>
     <a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('category.php?id_category=65');?>
 ">
-        <img class="fourlink" style="position: absolute; left: 145px; top : 608px;"
+        <img class="fourlink" style="position: absolute; left: 145px; top : 615px;"
              src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
 advantages/vintage.png" alt="vintage glasses" title="vintage glasses"/>
     </a>
     <a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('category.php?id_category=68');?>
 ">
-        <img class="fourlink" style="position: absolute; left: 393px; top : 609px;"
+        <img class="fourlink" style="position: absolute; left: 393px; top : 615px;"
              src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
 advantages/trendy.png" alt="trendy glasses" title="trendy glasses"/>
     </a>
     <a class="fourlink" href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('magazine.php');?>
 ">
-        <img class="fourlink" style="position: absolute; left: 640px; top : 609px;"
+        <img class="fourlink" style="position: absolute; left: 640px; top : 615px;"
              src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
 advantages/visibellymag.png" alt="Magazine of Visibelly"
              title="Magazine of Visibelly"/>
     </a>
     <a href="<?php echo $_smarty_tpl->getVariable('link')->value->getPageLink('contact-form.php');?>
 ">
-        <img class="fourlink" style="position: absolute; left: 894px; top : 609px;"
+        <img class="fourlink" style="position: absolute; left: 894px; top : 615px;"
              src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
 advantages/designer.png" alt="designer of visibelly" title="designer of visibelly"/>
     </a>
 
-    <img style="position: absolute; left: 93px; top : 1090px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
-advantages/newsletter.jpg"
+    <a href="#newsletter_footer">
+    <img style="position: absolute; left: 157px; top : 980px; height: 110px; width: 460px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+advantages/newsletter2.jpg"
          alt="newsletter visibelly" title="luxe brand of visibelly"/>
-    <img style="position: absolute; left: 593px; top : 1090px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
-advantages/marques.jpg"
+    </a>
+    <img style="position: absolute; left: 642px; top : 980px; height: 110px; width: 460px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
+advantages/marque2.jpg"
          alt="luxe brand visibelly" title="luxe brand of visibelly"/>
 
 </div>

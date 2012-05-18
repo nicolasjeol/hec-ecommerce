@@ -143,28 +143,30 @@
 
 <div>
     <a href="{$link->getPageLink('category.php?id_category=65')}">
-        <img class="fourlink" style="position: absolute; left: 145px; top : 608px;"
+        <img class="fourlink" style="position: absolute; left: 145px; top : 615px;"
              src="{$img_prod_dir}advantages/vintage.png" alt="vintage glasses" title="vintage glasses"/>
     </a>
     <a href="{$link->getPageLink('category.php?id_category=68')}">
-        <img class="fourlink" style="position: absolute; left: 393px; top : 609px;"
+        <img class="fourlink" style="position: absolute; left: 393px; top : 615px;"
              src="{$img_prod_dir}advantages/trendy.png" alt="trendy glasses" title="trendy glasses"/>
     </a>
     <a class="fourlink" href="{$link->getPageLink('magazine.php')}">
-        <img class="fourlink" style="position: absolute; left: 640px; top : 609px;"
+        <img class="fourlink" style="position: absolute; left: 640px; top : 615px;"
              src="{$img_prod_dir}advantages/visibellymag.png" alt="Magazine of Visibelly"
              title="Magazine of Visibelly"/>
     </a>
     <a href="{$link->getPageLink('contact-form.php')}">
-        <img class="fourlink" style="position: absolute; left: 894px; top : 609px;"
+        <img class="fourlink" style="position: absolute; left: 894px; top : 615px;"
              src="{$img_prod_dir}advantages/designer.png" alt="designer of visibelly" title="designer of visibelly"/>
     </a>
 
 {*        <img style="width : 986px; position: absolute; left: 137px; top : 950px;" src="{$img_prod_dir}advantages/sumup.png" alt="sumup visibelly" title="sumup visibelly"/>*}
 
-    <img style="position: absolute; left: 93px; top : 1090px;" src="{$img_prod_dir}advantages/newsletter.jpg"
+    <a href="#newsletter_footer">
+    <img style="position: absolute; left: 157px; top : 980px; height: 110px; width: 460px;" src="{$img_prod_dir}advantages/newsletter2.jpg"
          alt="newsletter visibelly" title="luxe brand of visibelly"/>
-    <img style="position: absolute; left: 593px; top : 1090px;" src="{$img_prod_dir}advantages/marques.jpg"
+    </a>
+    <img style="position: absolute; left: 642px; top : 980px; height: 110px; width: 460px;" src="{$img_prod_dir}advantages/marque2.jpg"
          alt="luxe brand visibelly" title="luxe brand of visibelly"/>
 
 </div>
