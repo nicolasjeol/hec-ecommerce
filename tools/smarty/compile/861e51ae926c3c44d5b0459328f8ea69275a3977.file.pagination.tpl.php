@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-05-17 22:14:37
+<?php /* Smarty version Smarty-3.0.7, created on 2012-05-18 03:43:21
          compiled from "/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/pagination.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9511408014fb55c2d6cfb93-96364383%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:871083424fb5a9394db136-63632782%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '861e51ae926c3c44d5b0459328f8ea69275a3977' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop-hec/themes/clothetheme/pagination.tpl',
-      1 => 1337007555,
+      1 => 1337291992,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9511408014fb55c2d6cfb93-96364383',
+  'nocache_hash' => '871083424fb5a9394db136-63632782',
   'function' => 
   array (
   ),
@@ -154,9 +154,5 @@ if ($_smarty_tpl->_count($_from) > 0){
 	<?php }?>
 	</div>
 	<!-- /Pagination -->
-
-    <br /><br /><br /><br />
-        <img style="width : 675px;" src="<?php echo $_smarty_tpl->getVariable('img_prod_dir')->value;?>
-advantages/sumup.png" alt="sumup visibelly" title="sumup visibelly"/>
     
 <?php }?>
